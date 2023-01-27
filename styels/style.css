@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: #151515; 
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header{
+    background: #282828;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+}
+.header__link:hover{
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+}
+.header__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-left: 30px;
+}
+.header__link{
+  font-family: "Montserrat-Bold";
+  font-size: 20px;
+  line-height: 24.38px;
+  color: white;
+  text-decoration: none;
+  padding: 20px 21px;
+
+}
+.header__icons{
+    display: flex;
+    margin-left: 683px;
+    text-decoration: none;
+    list-style: none;
+}
+.header__icons-item{
+    margin-right: 25px;
+}
+.header-content{
+    height: 700px;
+    background: url(../images/Header.png) center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header__title{
+    font-family: "ProstoOne-Regular";
+    font-size: 100px;
+    line-height: 75px;
+    color: white;
+}
+.header__text:hover{
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+.header__text{
+    width: 200px;
+    height: 50px;
+    margin-top: 38px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: "Monstserrat-Regular";
+    
+}
+.airpods__about{ 
+    display: flex;
+    
+}
+.airpods__text{
+    margin-left: 30px;
+    margin-top: 120px;
+    color: white;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 27px; 
+    font-family: "Monstserrat-Regular";
+}
+.airpodsblack__about{ 
+    display: flex;
+    
+}
+.airpodsblack__text{
+    margin-right: 87px;
+    margin-top: 150px;
+    color: white;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 27px; 
+    font-family: "Monstserrat-Regular";
+}
+.airpodsone__about{ 
+    display: flex;
+    
+}
+.airpodsone__text{
+    margin-left: 87px;
+    margin-top: 150px;
+    color: white;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 27px; 
+    font-family: "Monstserrat-Regular";
+}
+.airpodsone__text-title{
+    margin-right: 87px;
+    margin-top: 150px;
+    color: white;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 27px; 
+    font-family: "Monstserrat-Regular";
+}
+.iphone__about{
+    width: 255px;
+    height: 312px;
+    background-color: white;
+    border-radius: 6px;
+    margin-top: 79px;
+}
+
+
+.iphone__block{
+    display: flex;
+    justify-content: center;
+    padding-top: 49px;
+}
+.iphone__text{
+    padding-top: 49px ;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    font-family: "Montserrat-Bold";
+}
+.iphone__img{
+    width: 128px;
+    height: 167px;
+}
+.iphone11__block{
+    display: flex;
+    justify-content: center;
+    padding-top: 49px;
+}
+.iphone11__text{
+    padding-top: 49px ;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    font-family: "Montserrat-Bold";
+}
+.iphone__box{
+    width: 255px;
+    height: 312px;
+    background: #fff;
+    margin-left: 30px;  
+    border-radius: 6px; 
+}
+.iphone__img{
+    width: 127.5px;
+    height: 167px;
+    margin-left: 63px;
+}
+.iphone__title{   
+    font-family: "Montserrat-Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    text-align: center;
+ 
+}
+.iphone__box-text{
+    font-family: "Monstserrat-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    margin-top: 10px;
+}
+.iphone__btn:hover{
+    background-color: white;
+    color: #151515;
+    transition: 0.4s;
+}
+.iphone__btn{
+    font-family: "Montserrat-Bold";
+    width: 161px;
+    height: 34px;
+    margin: 20px 47px 15px 47px;
+    background: #151515;  
+    margin-top: 10px;
+    background-color: #151515;
+    color: white;
+    
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #282828;
+     padding: 20px 0px;
+     margin-top: 70px;   
+}
+.footer__card-link{
+    margin-left: 29px;
+}
+.header__link2:hover{
+    color: gold;
+}
